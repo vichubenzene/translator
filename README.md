@@ -5,7 +5,7 @@ Translates any language to any language
 from translator.benzene_translator import google_translator
 
 detector = google_translator()
-detect_result = detector.detect("helloe")
+detect_result = detector.detect("hello")
 translator = google_translator()
 
 print(detect_result)
