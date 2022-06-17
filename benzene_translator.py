@@ -1,6 +1,4 @@
-# coding:utf-8
-# author LuShan
-# version : 1.1.9
+
 import json, requests, random, re
 from urllib.parse import quote
 import urllib3
