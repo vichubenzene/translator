@@ -1,2 +1,25 @@
-# translator
+# Translator
 Translates any language to any language 
+
+```py
+from translator.benzene_translator import google_translator
+
+detector = google_translator()
+detect_result = detector.detect("helloe")
+translator = google_translator()
+
+print(detect_result)
+
+
+pronounce = translator.translate("hello",
+                                         lang_src=detect_result,
+                                         lang_tgt="ta",
+                                         pronounce=True)
+print(pronounce)
+```
+
+Result:
+```
+['en', 'english']
+['வணக்கம் ', 'həˈlō', 'Vaṇakkam']
+```
