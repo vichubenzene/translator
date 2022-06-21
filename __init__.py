@@ -1,6 +1,6 @@
 # coding:utf-8
-# author LuShan
-# version : 1.1.9
+# author VISWANATHAN 
+# version : 0.1
 __all__ = 'google_translator'
 
 from .benzene_translator import google_translator
