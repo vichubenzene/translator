@@ -21,7 +21,7 @@ print(pronounce)
 ```
 
 Result:
-```
+``` console
 ['en', 'english']
 ['வணக்கம் ', 'həˈlō', 'Vaṇakkam']
 ```
